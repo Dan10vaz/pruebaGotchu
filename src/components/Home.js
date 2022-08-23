@@ -11,7 +11,7 @@ export function Home() {
         await logout()
         navigate('/login')
     };
-    if (loading) return <h1>Cargando...</h1>
+    if (loading) return <h1>Cargando....</h1>
     return (
         <div className="container mx-auto">
             <section className="flex justify-center items-center h-screen bg-gray-800">
